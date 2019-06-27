@@ -1,0 +1,41 @@
+
+html {box-sizing: border-box;}
+*, *::before, *::after {box-sizing: inherit;}
+
+body {
+	background-color: rgb(94, 163, 211);
+	color: rgb(219, 227, 233);
+	text-align: left;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;  
+	font-size: 14px;
+	display: block;
+	word-wrap:break-word;
+
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+.box1:hover {
+  background-color: rgb (52, 113, 157);
+}
+
+
+
+
+form {
+	display: flex;
+	justify-content: space-around;
+	outline: none;
+}
+
+
+select, textarea, input {
+	background: transparent;
+	border-color: rgb(219,227,233);
+}
